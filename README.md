@@ -4,7 +4,7 @@ Collection of [Flutter](https://flutter.io/) examples
 
 ## List of examples
 
-####**- Countdown timer**
+**1. Countdown timer**
 
 [Countdown timer without UI](https://github.com/nextfunc/flutter-playground/blob/master/lib/countdown_timer/countdown_timer_no_ui.dart)
 
