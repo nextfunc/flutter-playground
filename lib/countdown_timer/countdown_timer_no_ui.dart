@@ -13,7 +13,8 @@ void main() {
   var sub = countDownTimer.listen(null);
   sub.onData((duration) {
     numberOfMessage++;
-    print('Your message here: $numberOfMessage');
+    int countdownNumber = timeOutInSeconds - numberOfMessage;
+    print('Your message here: $countdownNumber');
   });
 
   sub.onDone(() {
