@@ -13,6 +13,8 @@ void main() {
   sub.onData((duration) {
     currentNumber += stepInSeconds;
     int countdownNumber = timeOutInSeconds - currentNumber;
+    // Make it start from the timeout value
+    countdownNumber += stepInSeconds;
     print('Your message here: $countdownNumber');
   });
 

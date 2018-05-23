@@ -47,7 +47,9 @@ class CountdownTimerPageState extends State<CountdownTimerPage> {
 
   @override
   Widget build(BuildContext context) {
-    final number = timeOutInSeconds - currentNumber;
+    int number = timeOutInSeconds - currentNumber;
+    // Make it start from the timeout value
+    number += stepInSeconds;
     return new Scaffold(
       body: new Center(
           child: new Text(
