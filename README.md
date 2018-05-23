@@ -1,8 +1,12 @@
-# flutter_playground
+# Flutter Playground
 
-A new Flutter application.
+Collection of [Flutter](https://flutter.io/) examples
 
-## Getting Started
+## List of examples
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+####**- Countdown timer**
+
+[Countdown timer without UI](https://github.com/nextfunc/flutter-playground/blob/master/lib/countdown_timer/countdown_timer_no_ui.dart)
+
+[Countdown timer with simple Text at center](https://github.com/nextfunc/flutter-playground/blob/master/lib/countdown_timer/countdown_timer_demo.dart)
+
