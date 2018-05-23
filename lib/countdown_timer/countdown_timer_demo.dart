@@ -12,7 +12,7 @@ class CountdownTimerPage extends StatefulWidget {
 
 class CountdownTimerPageState extends State<CountdownTimerPage> {
   final timeOutInSeconds = 10;
-  final stepInSeconds = 1;
+  final stepInSeconds = 2;
   int currentNumber = 0;
 
   CountdownTimerPageState() {
@@ -26,7 +26,7 @@ class CountdownTimerPageState extends State<CountdownTimerPage> {
 
     var sub = countDownTimer.listen(null);
     sub.onData((duration) {
-      currentNumber++;
+      currentNumber += stepInSeconds;
 
       this.onTimerTick(currentNumber);
       print('Your message here: $currentNumber');
@@ -51,9 +51,9 @@ class CountdownTimerPageState extends State<CountdownTimerPage> {
     return new Scaffold(
       body: new Center(
           child: new Text(
-            "Your message here: $number",
-            style: new TextStyle(color: Colors.red, fontSize: 25.0),
-          )),
+        "Your message here: $number",
+        style: new TextStyle(color: Colors.red, fontSize: 25.0),
+      )),
     );
   }
 }
