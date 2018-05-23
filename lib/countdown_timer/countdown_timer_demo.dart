@@ -13,7 +13,7 @@ class CountdownTimerPage extends StatefulWidget {
 class CountdownTimerPageState extends State<CountdownTimerPage> {
   final timeOutInSeconds = 10;
   final stepInSeconds = 1;
-  int numberOfMessage = 0;
+  int currentNumber = 0;
 
   CountdownTimerPageState() {
     setupCountdownTimer();
@@ -26,10 +26,10 @@ class CountdownTimerPageState extends State<CountdownTimerPage> {
 
     var sub = countDownTimer.listen(null);
     sub.onData((duration) {
-      numberOfMessage++;
+      currentNumber++;
 
-      this.onTimerTick(numberOfMessage);
-      print('Your message here: $numberOfMessage');
+      this.onTimerTick(currentNumber);
+      print('Your message here: $currentNumber');
     });
 
     sub.onDone(() {
@@ -39,18 +39,19 @@ class CountdownTimerPageState extends State<CountdownTimerPage> {
     });
   }
 
-  void onTimerTick(int numberOfMessage) {
+  void onTimerTick(int currentNumber) {
     setState(() {
-      numberOfMessage = numberOfMessage;
+      currentNumber = currentNumber;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    final number = timeOutInSeconds - currentNumber;
     return new Scaffold(
       body: new Center(
           child: new Text(
-            "Your message here: $numberOfMessage",
+            "Your message here: $number",
             style: new TextStyle(color: Colors.red, fontSize: 25.0),
           )),
     );
