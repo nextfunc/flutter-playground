@@ -7,10 +7,10 @@ void main() {
 
 class FirstScreen extends StatefulWidget {
   @override
-  CountdownTimerPageState createState() => new CountdownTimerPageState();
+  FirstScreenState createState() => new FirstScreenState();
 }
 
-class CountdownTimerPageState extends State<FirstScreen> {
+class FirstScreenState extends State<FirstScreen> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
