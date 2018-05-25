@@ -13,3 +13,11 @@ Collection of [Flutter](https://flutter.io/) examples
 **2. Navigation**
 
 [Simple navigation between 2 screen, pass an integer from first screen to second screen](https://github.com/nextfunc/flutter-playground/tree/master/lib/navigation/simple_navigation)
+
+**3. Bottom Sheet**
+
+[Simple Bottom Sheet demo](https://github.com/nextfunc/flutter-playground/tree/master/lib/bottom_sheet)
+
+**4. Dismissible**
+
+[Dismissible demo](https://github.com/nextfunc/flutter-playground/tree/master/lib/dismissible) (using [Dismissible](https://docs.flutter.io/flutter/widgets/Dismissible-class.html) with [Stack](https://docs.flutter.io/flutter/widgets/Stack-class.html) and [Positioned](https://docs.flutter.io/flutter/widgets/Positioned-class.html))
