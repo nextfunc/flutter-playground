@@ -21,3 +21,11 @@ Collection of [Flutter](https://flutter.io/) examples
 **4. Dismissible**
 
 [Dismissible demo](https://github.com/nextfunc/flutter-playground/tree/master/lib/dismissible) (using [Dismissible](https://docs.flutter.io/flutter/widgets/Dismissible-class.html) with [Stack](https://docs.flutter.io/flutter/widgets/Stack-class.html) and [Positioned](https://docs.flutter.io/flutter/widgets/Positioned-class.html))
+
+**5. Align**
+
+[Align widget at bottom of screen](https://github.com/nextfunc/flutter-playground/tree/master/lib/align_bottom)
+
+**6. Widget size**
+
+[Change the size of buttons (RaisedButton, OutlineButton)](https://github.com/nextfunc/flutter-playground/tree/master/lib/sized_box)
