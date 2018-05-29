@@ -29,3 +29,7 @@ Collection of [Flutter](https://flutter.io/) examples
 **6. Widget size**
 
 [Change the size of buttons (RaisedButton, OutlineButton)](https://github.com/nextfunc/flutter-playground/tree/master/lib/sized_box)
+
+**7. List view**
+
+[Sticky header list view](https://github.com/nextfunc/flutter-playground/tree/master/lib/sticky_header)
