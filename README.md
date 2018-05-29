@@ -33,3 +33,7 @@ Collection of [Flutter](https://flutter.io/) examples
 **7. List view**
 
 [Sticky header list view](https://github.com/nextfunc/flutter-playground/tree/master/lib/sticky_header)
+
+**8. Drawer**
+
+[Change drawer icon color](https://github.com/nextfunc/flutter-playground/tree/master/lib/drawer/drawer_icon_color)
